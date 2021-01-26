@@ -1,6 +1,6 @@
 
 import React from "react"
-import Board from "./components/TikTakToe/Board"
+import Board from "./components/BoardElements/Board"
 import styles from "./Game.module.css"
 class Game extends React.Component {
   constructor(props) {
