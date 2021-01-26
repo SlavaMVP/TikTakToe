@@ -1,0 +1,10 @@
+.Square {
+  width: 30%;
+  background-color: gray;
+  border: 2px solid black;
+  outline: none;
+}
+
+.Square:hover {
+  background-color: white;
+}

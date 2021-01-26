@@ -1,6 +1,8 @@
+import styles from "./Square.module.css"
+
 function square(props) {
     return (
-      <button className="square" onClick={props.onClick}>
+      <button className={styles.Square} onClick={props.onClick}>
         {props.value}
       </button>
     );
